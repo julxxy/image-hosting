@@ -1,0 +1,100 @@
+2025-08-01 16:16:45.137  INFO 16588 --- [main] c.a.e.s.ChinaEportSignatureApplication   : The following profiles are active: prod
+2025-08-01 16:16:45.832  INFO 16588 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fad4767c-fd5c-31e9-830d-6031c6bde076
+2025-08-01 16:16:46.203  INFO 16588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-01 16:16:46.221  INFO 16588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-01 16:16:46.222  INFO 16588 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/10.0.16]
+2025-08-01 16:16:46.305  INFO 16588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-01 16:16:46.307  INFO 16588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1142 ms
+2025-08-01 16:16:46.608  WARN 16588 --- [SimpleAsyncTaskExecutor-1] c.a.e.signature.config.InitialConfig     : 已和[ws://127.0.0.1:61232]建立websocket连接.
+2025-08-01 16:16:46.769  WARN 16588 --- [WebSocketClient-AsyncIO-8] c.a.e.signature.config.InitialConfig     : 已从电子口岸u-key中获取到未经hash算法的x509Certificate证书: {"cus-sec_SpcSignDataNoHashAsPEM":"MIIEtTCCBFqgAwIBAgIIAwAAAAA2j4UwDAYIKoEcz1UBg3UFADCBmDELMAkGA1UEBhMCQ04xDzANBgNVBAgMBuWMl+S6rDEPMA0GA1UEBwwG5YyX5LqsMRswGQYDVQQKDBLkuK3lm73nlLXlrZDlj6PlsrgxGzAZBgNVBAsMEuivgeS5pueuoeeQhuS4reW/gzEtMCsGA1UEAwwk5Lit5Zu955S15a2Q5Lia5Yqh6K+B5Lmm566h55CG5Lit5b+DMB4XDTI1MDcxMDAwMDAwMFoXDTM1MDcxMDAwMDAwMFowUDELMAkGA1UEBhMCQ04xLTArBgNVBAsMJOa1t+WPo+S4reS8n+acuuWFjeaKlei1hOaciemZkOWFrOWPuDESMBAGA1UEAwwJ56ym5Yag6aaWMFkwEwYHKoZIzj0CAQYIKoEcz1UBgi0DQgAES1pDinzrwNpBPGCT0Ick3sPkLZC3qQWZE1xzWRB/10ZocDs87GVjNb+8G+ZKyDxJOlHlXc8iIUjdKsx9u5DbOKOCAtEwggLNMBEGCWCGSAGG+EIBAQQEAwIFoDAOBgNVHQ8BAf8EBAMCBsAwCQYDVR0TBAIwADApBgNVHSUEIjAgBggrBgEFBQcDAgYIKwYBBQUHAwQGCisGAQQBgjcUAgIwHwYDVR0jBBgwFoAURCQxt0wEvoAVXmuo4N1bjKXTh0UwHQYDVR0OBBYEFKA6oMErK8lxWPbNz5bdnJKJIkuVMGgGA1UdIARhMF8wXQYEVR0gADBVMFMGCCsGAQUFBwIBFkdodHRwczovL3d3dy5jaGluYXBvcnQuZ292LmNuL3RjbXNmaWxlL3UvY21zL3d3dy8yMDIyMDQvMTIxMzI5NDh4dDZwLnBkZjB/BgNVHR8EeDB2MHSgcqBwhm5sZGFwOi8vbGRhcC5jaGluYXBvcnQuZ292LmNuOjM4OS9jbj1jcmwwMzAwMDAsb3U9Y3JsMDAsb3U9Y3JsLGM9Y24/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlP2NuPWNybDAzMDAwMDA+BggrBgEFBQcBAQQyMDAwLgYIKwYBBQUHMAGGImh0dHA6Ly9vY3NwLmNoaW5hcG9ydC5nb3YuY246ODgwMC8wNAYKKwYBBAGpQ2QFAQQmDCTmtbflj6PkuK3kvJ/mnLrlhY3mipXotYTmnInpmZDlhazlj7gwEgYKKwYBBAGpQ2QFAwQEDAIwMTAiBgorBgEEAalDZAUIBBQMEjQ2MDAwMzE5ODkwMTE4NTQxMTAgBgorBgEEAalDZAUJBBIMEDAzLUpKM0c5MDA1ODI1MjUwGQYKKwYBBAGpQ2QFCwQLDAlNQUVOVVBBNDEwEgYKKwYBBAGpQ2QFDAQEDAIwMDASBgorBgEEAalDZAIBBAQMAjEyMBIGCisGAQQBqUNkAgQEBAwCMTQwIAYIKoEc0BQEAQQEFBMSOTE0NjAwMDBNQUVOVVBBNDExMAwGCCqBHM9VAYN1BQADRwAwRAIgRg57w1dPMdWfZt+3L8OpX/Qu0cGCYgi8DqaWkOGn1uICIBALCBThQ2N1uTlnN4vKtrU//4MLeDz3jevln/KbpLdT"}
+2025-08-01 16:16:47.768  INFO 16588 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-08-01 16:16:49.203  WARN 16588 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-01 16:16:49.687  INFO 16588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-01 16:16:50.525  INFO 16588 --- [main] c.a.e.s.ChinaEportSignatureApplication   : Started ChinaEportSignatureApplication in 6.75 seconds (JVM running for 7.405)
+2025-08-01 16:16:50.903 DEBUG 16588 --- [main] c.a.e.signature.config.InitialConfig     : XMl output format with C14n Initial Succeed.
+2025-08-01 16:17:38.143  INFO 16588 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-01 16:17:38.143  INFO 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-01 16:17:38.144 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-08-01 16:17:38.144 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-08-01 16:17:38.144 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-08-01 16:17:38.146 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@134686d7
+2025-08-01 16:17:38.146 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5821a547
+2025-08-01 16:17:38.148 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-08-01 16:17:38.150  INFO 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-08-01 16:17:38.176 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/rpc/eport/signature", parameters={}
+2025-08-01 16:17:38.553  INFO 16588 --- [http-nio-8080-exec-1] c.a.e.signature.core.SignatureHandler    : c14n source xml result, sha1: [106, 13, -44, -32, -23, 127, -94, -14, 27, 60, 4, 87, 71, 79, -81, -121, 124, -40, 43, 53], base64: ag3U4Ol/ovIbPARXR0+vh3zYKzU=
+2025-08-01 16:17:38.573  WARN 16588 --- [http-nio-8080-exec-1] c.a.e.signature.core.SignatureHandler    : 总署XML加签报文:
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ceb="http://www.chinaport.gov.cn/ceb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+  <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+  <ds:Reference URI="">
+    <ds:Transforms>
+      <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+    </ds:Transforms>
+    <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <ds:DigestValue>ag3U4Ol/ovIbPARXR0+vh3zYKzU=</ds:DigestValue>
+  </ds:Reference>
+</ds:SignedInfo>
+
+2025-08-01 16:17:38.574  WARN 16588 --- [http-nio-8080-exec-1] c.a.e.signature.config.InitialConfig     : 发送给ukey的真正请求入参: 672e673e097178b2a20b24133df8965a0640b1c7, 原始报文:
+<ceb:CEB311Message guid="Q572IOH-QZEF-YJJC-688C-7821E59A677N4" version="1.0" xmlns:ceb="http://www.chinaport.gov.cn/ceb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<ceb:Order>
+<ceb:OrderHead>
+<ceb:guid>2BMX7Y7-91OY-KHGK-688C-781FE247D82Q3</ceb:guid>
+<ceb:appType>1</ceb:appType>
+<ceb:appTime>20250801161735</ceb:appTime>
+<ceb:appStatus>2</ceb:appStatus>
+<ceb:orderType>I</ceb:orderType>
+<ceb:orderNo>2025080115340567</ceb:orderNo>
+<ceb:ebpCode>46016601CS</ceb:ebpCode>
+<ceb:ebpName>海南德航跨境易购有限公司</ceb:ebpName>
+<ceb:ebcCode>4601660A7M</ceb:ebcCode>
+<ceb:ebcName>海口中伟机免投资有限公司</ceb:ebcName>
+<ceb:goodsValue>9.16</ceb:goodsValue>
+<ceb:freight>10.00</ceb:freight>
+<ceb:discount>0.91</ceb:discount>
+<ceb:taxTotal>1.74</ceb:taxTotal>
+<ceb:acturalPaid>19.99</ceb:acturalPaid>
+<ceb:currency>142</ceb:currency>
+<ceb:buyerRegNo>2234</ceb:buyerRegNo>
+<ceb:buyerName>黄晓琴</ceb:buyerName>
+<ceb:buyerTelephone>15876599759</ceb:buyerTelephone>
+<ceb:buyerIdType>1</ceb:buyerIdType>
+<ceb:buyerIdNumber>500224199109173901</ceb:buyerIdNumber>
+<ceb:payCode>4403169D3W</ceb:payCode>
+<ceb:payName>财付通支付科技有限公司</ceb:payName>
+<ceb:payTransactionId>4200002718202508017834686000</ceb:payTransactionId>
+<ceb:batchNumbers>2025080115340567</ceb:batchNumbers>
+<ceb:consignee>黄晓琴</ceb:consignee>
+<ceb:consigneeTelephone>15876599759</ceb:consigneeTelephone>
+<ceb:consigneeAddress>新疆维吾尔自治区喀什地区喀什市测试</ceb:consigneeAddress>
+<ceb:consigneeDistrict>650000</ceb:consigneeDistrict>
+<ceb:note></ceb:note></ceb:OrderHead>
+<ceb:OrderList>
+<ceb:gnum>1</ceb:gnum>
+<ceb:itemNo>E0090010050128</ceb:itemNo>
+<ceb:itemName>Meditamin 雪白胶囊84g 168粒</ceb:itemName>
+<ceb:gmodel>168粒/瓶</ceb:gmodel>
+<ceb:itemDescribe></ceb:itemDescribe>
+<ceb:barCode></ceb:barCode>
+<ceb:unit>142</ceb:unit>
+<ceb:qty>1</ceb:qty>
+<ceb:price>9.16</ceb:price>
+<ceb:totalPrice>9.16</ceb:totalPrice>
+<ceb:currency>142</ceb:currency>
+<ceb:country>133</ceb:country>
+<ceb:note></ceb:note></ceb:OrderList></ceb:Order>
+<ceb:BaseTransfer>
+<ceb:copCode>4601660A7M</ceb:copCode>
+<ceb:copName>海口中伟机免投资有限公司</ceb:copName>
+<ceb:dxpMode>DXP</ceb:dxpMode>
+<ceb:dxpId>DXPENT2025250669</ceb:dxpId>
+<ceb:note></ceb:note></ceb:BaseTransfer></ceb:CEB311Message>
+2025-08-01 16:17:38.579  INFO 16588 --- [http-nio-8080-exec-1] c.a.eport.signature.core.SignHandler     : 收到u-key加签数据: {"_method":"cus-sec_SpcSignDataNoHashAsPEM","_id":1,"args":{"inData":"672e673e097178b2a20b24133df8965a0640b1c7","passwd":"88888888"}}
+2025-08-01 16:17:38.583  INFO 16588 --- [http-nio-8080-exec-1] c.a.e.signature.core.SignatureHandler    : c14n source xml result, sha1: [106, 13, -44, -32, -23, 127, -94, -14, 27, 60, 4, 87, 71, 79, -81, -121, 124, -40, 43, 53], base64: ag3U4Ol/ovIbPARXR0+vh3zYKzU=
+2025-08-01 16:17:38.591  WARN 16588 --- [SimpleAsyncTaskExecutor-2] c.a.e.s.core.WebSocketClientHandler      : 已和[ws://127.0.0.1:61232]建立websocket连接...
+2025-08-01 16:17:38.607  WARN 16588 --- [WebSocketClient-AsyncIO-8] c.a.e.s.core.WebSocketClientHandler      : 收到ukey响应数据: {"_id":0,"_method":"open","_status":"00","_args":{"Result":true,"Data":[{"infos":["握手成功"]}],"Error":[]}}
+2025-08-01 16:17:38.662  WARN 16588 --- [WebSocketClient-AsyncIO-8] c.a.e.s.core.WebSocketClientHandler      : 收到ukey响应数据: {"_id":1,"_method":"cus-sec_SpcSignDataNoHashAsPEM","_status":"00","_args":{"Result":false,"Data":[],"Error":["args中参数inData传入了不被支持的数据类型!请传输SHA1的Hash算法生成的十六进制字符串(64字节).","Err:Base50000"]}}
+2025-08-01 16:17:38.666  INFO 16588 --- [http-nio-8080-exec-1] c.a.e.s.c.rpc.EportSignController        : 加签响应 {"digestValue":"ag3U4Ol/ovIbPARXR0+vh3zYKzU=","success":false}
+2025-08-01 16:17:38.699 DEBUG 16588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
